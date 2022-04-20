@@ -1,0 +1,61 @@
+
+
+/*AddMovie*/
+.AddMovie {
+  max-width: 50%;
+  margin: 70px auto;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+h6 {
+  margin-right: 120px;
+}
+
+/*App*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  background-color: #8d367a;
+  color: white;
+  padding: 2rem;
+}
+
+/*Filtring*/
+.searchform {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px 0;
+  padding: 15px 0;
+  background-color: #744361;
+}
+.searchinp {
+  width: 400px;
+  padding: 0px;
+  margin: 0px;
+  height: 40px;
+}
+
+.searchbtn {
+  height: 40px;
+}
+
+/*MovieList*/
+.MovieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*MovieCard*/
+.MovieCard {
+  background-color: #8d367a;
+  color: white;
+  width: 400px;
+}
+
